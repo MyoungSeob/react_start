@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  height : 100vh;
+  width : 100vw;
+  overflow: hidden;
+  padding: 16px;
+  box-sizing : border-box;
+}
+
+.outter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100vw;
+  height: 100vw;
+  border: 1px solid #eee;
+  padding : 0vh 32px;
+  box-sizing: border-box;
+  margin : 0px auto;
+}
+
+.outter h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0;
+  line-height: 1.4;
+
+}
+
+.outter h1 span {
+  background-color: #fef5d4;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+
+.homer-img {
+  width: 80%;
+  margin: 16px;
+}
+
+.text-box {
+  padding: 10px;
+  margin: 24px 0px;
+  border: 1px solid rgb(226, 176, 39);
+  border-radius: 30px;
+  width: 100%;
+}
+
+.button {
+  padding : 8px 24px;
+  background-color: rgb(226, 176, 39);
+  border-radius: 30px;
+  border: rgb(226, 176, 39);
+}
